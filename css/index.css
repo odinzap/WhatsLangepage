@@ -1,0 +1,49 @@
+.box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Sombra destacada */
+    max-width: 400px;
+    width: 100%;
+}
+
+.box h1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.box p {
+    color: #888;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: block;
+    max-width: 400px;
+    padding: 15px 20px;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn.green {
+    background-color: #23c53f;
+    color: white;
+    line-height: 1.4;
+}
+
+.btn.green span {
+    display: block;
+    font-weight: bold;
+    font-size: 19px;
+}
